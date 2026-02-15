@@ -9,10 +9,11 @@
             string addString = message + userInput;
 
             Console.WriteLine("Enter a new message");
-            Console.WriteLine($"To quit press \"Q\"");
 
             do
             {
+                Console.WriteLine("To make a new message press \"enter\"");
+                Console.WriteLine($"When finished press \"Q\" to display full message then quit");
                 userInput = Console.ReadLine();
 
                 if ((userInput != "Q" && userInput != "q"))
@@ -30,7 +31,7 @@
                     addString = message;
                 }
                 Console.Clear();
-                Console.WriteLine(addString);
+                Console.WriteLine(message);
             } while (userInput != "Q" && userInput != "q");
             
             //Displays message before quitting
