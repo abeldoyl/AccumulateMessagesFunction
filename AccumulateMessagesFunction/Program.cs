@@ -2,7 +2,7 @@
 Abel Doyle
 RCET 2265
 Spring Semester 2026
-BetterCalculator
+AccumulateMessagesFunction
 https://github.com/abeldoyl/AccumulateMessagesFunction.git
 */
 
